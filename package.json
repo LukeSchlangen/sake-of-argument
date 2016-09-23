@@ -1,0 +1,29 @@
+{
+  "name": "sake-of-argument",
+  "version": "1.0.0",
+  "description": "An application to simplify the process of a logical argument",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LukeSchlangen/sake-of-argument.git"
+  },
+  "keywords": [
+    "argument",
+    "debate"
+  ],
+  "author": "Luke Schlangen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LukeSchlangen/sake-of-argument/issues"
+  },
+  "homepage": "https://github.com/LukeSchlangen/sake-of-argument#readme",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.6.1"
+  }
+}
